@@ -5,12 +5,6 @@ import "@material/react-drawer/dist/drawer.css";
 import '@material/react-list/dist/list.css';
 import './index.css';
 
-import TopAppBar, {
-    TopAppBarIcon,
-    TopAppBarRow,
-    TopAppBarSection,
-    TopAppBarFixedAdjust,
-} from '@material/react-top-app-bar';
 import MaterialIcon from '@material/react-material-icon';
 import Drawer, { DrawerHeader, DrawerTitle, DrawerContent, DrawerAppContent } from '@material/react-drawer';
 import List, { ListItem, ListItemGraphic, ListItemText } from '@material/react-list';
@@ -18,12 +12,8 @@ import List, { ListItem, ListItemGraphic, ListItemText } from '@material/react-l
 import { Component } from 'react'
 import { render } from 'react-dom'
 
-class App extends Component {
-    constructor(props, context) {
-        super(props, context);
-        this.setState({ showDrawer: false });
-    }
 
+class App extends Component {
     onMenuClick = () => {
         const { showDrawer } = this.state;
         this.setState({ showDrawer: !this.state.showDrawer });
