@@ -11,20 +11,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@material/drawer": "^3.1.0",
     "@material/react-button": "^0.15.0",
     "@material/react-material-icon": "^0.15.0",
     "@material/react-top-app-bar": "^0.15.0",
-    "@types/classnames": "^2.2.9",
-    "@types/node": "^12.7.1",
-    "@types/react": "^16.9.1",
-    "@types/react-dom": "^16.8.5",
-    "autoprefixer": "^9.6.1",
-    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "typescript": "^3.5.3"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.3"
+    "autoprefixer": "^9.6.1",
+    "node-sass": "^4.12.0",
+    "parcel-bundler": "^1.12.3",
+    "@types/classnames": "^2.2.9",
+    "@types/node": "^12.7.1",
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5"
   }
 }

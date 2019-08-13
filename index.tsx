@@ -23,7 +23,6 @@ class App extends Component {
                     </TopAppBarSection>
                 </TopAppBarRow>
             </TopAppBar>
-
         </div>)
     }
 }
